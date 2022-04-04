@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.menu {
+    margin: auto;
+}
+
+div {
+    width: 85%;
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0, 0, 0, .2);
+}
+
+header {
+    text-align: left;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 26px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+header a {
+    text-decoration: none;
+    color: #47525E;
+}
+
+.nome {
+    font-size: 56px;
+    color: #47525E;
+}
+
+.fotoperfil {
+    width: 350px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.descricao {
+    text-align: left;
+    margin-bottom: 5em;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6em;
+    margin-left: 3em;
+}
+
+.postagem li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 26px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.postagem a {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 26px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.rodape li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.rodape a {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.menu-blog {
+    margin: auto;
+}
+
+.nome-blog {
+    font-size: 56px;
+    color: #47525E;
+    margin-bottom: 2em;
+
+}
+
+.postagem-blog li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 26px;
+}
+
+.postagem-blog a {
+    text-decoration: none;
+    color: #47525E;
+    margin-right: 2em;
+
+}
+
+.menu-post {
+    margin: auto;
+}
+
+.nome-html {
+    font-size: 45px;
+    color: #47525E;
+    margin-bottom: 2em;
+}
+
+.titulo-html {
+    font-size: 20px;
+    color: #47525E;
+}
+
+.menu-post1 {
+    margin: auto;
+}
+
+.nome-css {
+    font-size: 45px;
+    color: #47525E;
+    margin-bottom: 2em;
+}
+
+.titulo-css {
+    font-size: 20px;
+    color: #47525E;
+    margin-top: 2em;
+}
+
+.menu-post2 {
+    margin: auto;
+}
+
+.nome-javascript {
+    font-size: 45px;
+    color: #47525E;
+    margin-bottom: 2em;
+}
+
+.titulo-javascript {
+    font-size: 20px;
+    color: #47525E;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.rodape-blog li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.rodape-blog a {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.menu-contatos {
+    margin: auto;
+}
+
+.nome-contatos {
+    font-size: 56px;
+    color: #47525E;
+    margin-bottom: 2em;
+}
+
+.redes li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 26px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #47525E;
+    margin-right: 2em;
+}
+
+.rodape-contatos li {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.rodape-contatos a {
+    list-style-type: none;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    font-size: 20px;
+    text-decoration: none;
+    color: #47525E;
+}
