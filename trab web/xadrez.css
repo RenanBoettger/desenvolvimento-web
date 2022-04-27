@@ -1,44 +1,34 @@
-*, *::before, *::after{
-    box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box; 
-    -o-box-sizing: border-box;
-      
-  }
-  #tabuleiro-xadrez {
-    width: 780px;
-    margin-left: 30%;
-  }
-  
-  #tabuleiro {
-    border: 3px solid #000;
-    width: 566px;
-    height: 563px;
-    border-radius: 5px;
-    float: left;
-  }
-  .fileira div {
-    font-size: 3em;
-    float: left;
-    width: 70px;
-    height: 70px;
-    border-left: 1.5px solid #000;
-    border-bottom: 1.5px solid #000;
-    text-align: center;
-  }
-  
-  .fileira div:first-child {
-    border-left: 0;
-  }
-  
-  .line-1 div:nth-child(2n+1)  {
-    background: #000;
-    color: #FFF
-  }
-  
-  .line-2 div:nth-child(2n)  {
-    background: #000;
-    color: #FFF
-  }
-  
+
+
+#tabuleiro-xadrez {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#tabuleiro {
+  border: 3px solid #000;
+  width: 100vmin;
+  height: 100vmin;
+}
+
+.fileira div {
+  font-size: 10vmin;
+  float: left;
+  width: 12.5vmin;
+  height: 12.5vmin;
+  border-left: solid #000;
+  border-bottom: solid #000;
+  text-align: center;
+  box-sizing: border-box;
+}
+.line-1 div:nth-child(2n+1) {
+  background: #000;
+  color: #FFF
+}
+
+.line-2 div:nth-child(2n) {
+  background: #000;
+  color: #FFF
+}
   
