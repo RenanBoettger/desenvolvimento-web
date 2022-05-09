@@ -1,0 +1,49 @@
+body
+		{
+		font-family	: sans-serif;
+		text-align	: center;
+		background-image: url(468104.jpg);
+		background-size:cover ;
+		margin-top: 7%;
+		margin-left: 4%;
+		}
+	#campo a {
+		display		: block;
+		float		: left;
+	
+		width		: 46px; 
+		line-height	: 46px;
+		border		: 2px outset gray;
+		
+		font-size	: 25px;
+		text-align	: center;
+		text-decoration	: none;
+		cursor		: default;
+		
+		background-color: #999;
+		color		: #999;
+		}
+	#campo a:hover{
+		border		: 2px solid yellow;
+		}
+	#campo a:active, #campo a:visited{
+		background-color: #ddd;
+		color		: black;
+		border		: 2px solid #ccc;
+		}
+	#campo br{
+		clear		: left;
+		}
+	#campo
+		{
+		padding		: 0;
+		margin-top	: 0;
+		margin		: auto;
+		width		: 200px;
+		height		: 200px;
+		}
+	p
+		{
+		font-size	: small;
+		text-align	: justify;
+		}
