@@ -1,1 +1,61 @@
-bla bla bla bla
+var tabela = [
+  [1,3,3,4],
+  [5,6,7,8],
+  [9,10,11,12],
+  [13,14,15,16]
+]
+
+function mostrarTabela(tabela){
+  var print = ""
+  for(var i = 0; i < tabela.length; i++){
+    for(var j = 0; j < tabela[i].length; j++){
+      print += String(tabela[i][j]) + " "
+    }
+    print += "\n"
+  }
+  console.log("Tabela:\n", print)
+}
+
+function somaDaPrimeiraColuna(tabela){
+  var conta = 0
+  for(var i = 0; i < tabela.length; i++){
+    conta += tabela[i][0]
+  }
+  return conta
+}
+
+function produtoDosElementosDaPrimeiraLinha(tabela){
+  var conta = 1
+  for(var i = 0; i < tabela[0].length; i++){
+    conta *= tabela[0][i]
+  }
+  return conta
+}
+
+function somaDeTodosOsElementos(tabela){
+  var conta = 0
+  for(var i = 0; i < tabela.length; i++){
+    for(var j = 0; j < tabela[i].length; j++){
+      conta += tabela[i][j]
+    }
+  }
+  return conta
+}
+
+function produtoDaDiagonalPrincipal(tabela){
+  var conta = 1
+  for(var i = 0; i < tabela.length; i++){
+    for(var j = 0; j < tabela[i].length; j++){
+      if(i === j){
+        conta *= tabela[i][j]
+      }
+    }
+  }
+  return conta
+}
+
+mostrarTabela(tabela);
+console.log("Soma da primeira coluna: ", somaDaPrimeiraColuna(tabela));
+console.log("Produtos da primeira linha: ", produtoDosElementosDaPrimeiraLinha(tabela));
+console.log("Soma de todos os numeros da tabela: ", somaDeTodosOsElementos(tabela));
+console.log("Produtos da diagonal principal: ", produtoDaDiagonalPrincipal(tabela));
